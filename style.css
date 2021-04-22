@@ -1,0 +1,179 @@
+/* Header */
+
+#hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#hero>img {
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.quote {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+
+/* Wildlife Observations Map */
+
+#map-container {
+  height: 450px;
+  width: 100%;
+}
+
+.marker-text {
+  text-align: center;
+}
+
+
+/* Wildlife Observations Table */
+
+.buttons {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: stretch;
+  flex-direction: row;
+  text-align: center;
+  margin: 2em;
+}
+
+.buttons>button {
+  flex-grow: 200;
+  flex-shrink: 100;
+  flex-basis: 20%;
+  height: 50px;
+}
+
+.buttons>button:hover {
+  background-color: lightblue;
+}
+
+td {
+  vertical-align: middle;
+}
+
+time {
+  background: inherit;
+}
+
+
+/* Cards */
+
+#observation-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#legend {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  height: 515px;
+  padding: 0;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-img {
+  width: 375px;
+  height: 375px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-body {
+  padding: 0 15px;
+  font-family: Arial, sans-serif;
+}
+
+.card-body a,
+.card-body a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+.card-body h3 {
+  font-size: 1.4em;
+}
+
+.card-body h4 {
+  font-size: 1em;
+  margin: 3px;
+}
+
+.card-icons {
+  padding: 0 15px;
+  padding-top: 0;
+  text-align: right;
+}
+
+.card-icons>i {
+  margin: 5px;
+  font-size: 1.1em;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: right;
+}
+
+
+/**
+* TODO: style the Search Form
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the search field */
+
+input[type=text] {
+  padding: 7px;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+button {
+  float: right;
+  width: 18%;
+  padding: 7px;
+  background: #f1f1f1;
+  color: black;
+  font-size: 17px;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c1c9cf;
+}

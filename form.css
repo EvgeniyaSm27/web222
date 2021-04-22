@@ -1,0 +1,33 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+ .required
+{
+    color: red;
+}
+
+.desc
+{
+    width: 500px; 
+    padding: 10px; 
+}
+
+.notes
+{
+    width: 500px; 
+    padding: 10px;
+    height: 50px;
+}
+
+.fname
+{
+    width: 500px; 
+    padding: 10px; 
+}
+
+.femail
+{
+    width: 500px; 
+    padding: 10px;   
+}
